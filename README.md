@@ -2,6 +2,10 @@
 
 Research code and selected aggregate results associated with **A Validity-First Evidence-Gating Framework for Explainable Building Energy Management**, *Energy & Buildings* (2026). Article DOI: https://doi.org/10.1016/j.enbuild.2026.118420.
 
+## Archived software release
+
+The initial limited public-code archive (GitHub release `v1.0.1`) is preserved at Zenodo: https://doi.org/10.5281/zenodo.23609759. This is the **software archive DOI**, distinct from the journal article DOI. The archive does not include the complete timestamp-level prediction exports or final production figures.
+
 ## Important post-acceptance disclosures
 
 ### Revision 1 — Persistence Comparator Timing
