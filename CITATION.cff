@@ -1,0 +1,24 @@
+cff-version: 1.2.0
+message: "If you use this software, please cite the associated article."
+title: "Validity-First Building Energy Analytics"
+type: software
+authors:
+  - family-names: Tseng
+    given-names: Chun-Jan
+license: MIT
+repository-code: https://github.com/ottolan0728/validity-first-building-energy-analytics
+preferred-citation:
+  type: article
+  title: "A Validity-First Evidence-Gating Framework for Explainable Building Energy Management"
+  authors:
+    - family-names: Tseng
+      given-names: Chun-Jan
+    - family-names: Su
+      given-names: Yi-Kai
+    - family-names: Shih
+      given-names: Yu-Ting
+    - family-names: Chang
+      given-names: Ming-Han
+  journal: Energy & Buildings
+  year: 2026
+  doi: 10.1016/j.enbuild.2026.118420
