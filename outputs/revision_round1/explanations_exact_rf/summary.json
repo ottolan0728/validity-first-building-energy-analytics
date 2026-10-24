@@ -1,0 +1,46 @@
+{
+  "final_holdout_opened": false,
+  "explained_model": "random_forest_full",
+  "model_specification": {
+    "n_estimators": 300,
+    "max_depth": 18,
+    "min_samples_leaf": 3,
+    "n_jobs": -1,
+    "random_state": 42
+  },
+  "model_identity_status": "exact_match_to_frozen_forecast_rf",
+  "stability_dimensions": [
+    "development_month",
+    "block"
+  ],
+  "seed_stability_evaluated": false,
+  "shap_sample_per_fold": 500,
+  "permutation_sample_per_scope_fold": 100,
+  "permutation_repeats": 1,
+  "mean_spearman_rho": 0.642927826182194,
+  "mean_top10_jaccard": 0.6475191475191475,
+  "top_permutation_features": {
+    "consumption_lag_1h": 1.5786706495831586,
+    "sin_hour": 0.23570910800388503,
+    "consumption_lag_2h": 0.16887943621437534,
+    "consumption_roll_mean_24h": 0.1537315818906257,
+    "consumption_lag_24h": 0.1327380051478629,
+    "hvac_on_count": 0.06742719835062835,
+    "consumption_lag_3h": 0.042431720469920164,
+    "solar_radiation": 0.041761221396579694,
+    "outdoor_temperature_c": 0.03202408207153582,
+    "consumption_lag_6h": 0.029406015036134735
+  },
+  "top_shap_features": {
+    "numeric__consumption_lag_1h": 2.026409626268793,
+    "numeric__sin_hour": 0.40121436910207126,
+    "numeric__consumption_lag_24h": 0.28220905117035167,
+    "numeric__consumption_roll_mean_24h": 0.2210296409607541,
+    "numeric__consumption_lag_2h": 0.14939721019523183,
+    "numeric__hvac_on_count": 0.10577834479973351,
+    "numeric__solar_radiation": 0.08369123030050545,
+    "numeric__indoor_temperature_c": 0.07657211602899242,
+    "numeric__outdoor_temperature_c": 0.07635250923671258,
+    "numeric__consumption_lag_3h": 0.05538743954012261
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "final_holdout_opened": false,
+  "best_model": "ridge",
+  "analysis_timing": "post_review_corrective_analysis",
+  "cohort_source": "raw_hourly_components_without_load_history_filter",
+  "thermal_rows": 24392,
+  "development_rows": 23366,
+  "development_rows_by_block": {
+    "A": 7917,
+    "B": 7920,
+    "C": 7529
+  },
+  "persistence_mae_c": 0.09332071612331824,
+  "best_mae_c": 0.08213069220082929,
+  "relative_mae_improvement": 0.11990932332432969,
+  "thermal_prediction_pass": true,
+  "common_support_pass": false,
+  "decision_module_status": "downgraded",
+  "rule": "best model >=5% MAE improvement and every block-mode-direction support rate >=0.80",
+  "support_interpretation": "empirical proximity screening; not causal positivity or intervention identification",
+  "setpoint_action": "plus-or-minus 1 C applied to the rowwise block-mean observed setpoint",
+  "dominant_mode_rule": "heating if heating count exceeds cooling count; cooling if converse; otherwise mixed_or_off"
+}

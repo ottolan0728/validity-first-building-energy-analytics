@@ -1,0 +1,18 @@
+RC1 assembly environment observation
+Observed date: 2026-10-24 Asia/Taipei
+Platform: Windows, CPython virtual environment with system site packages enabled
+Python reported by active interpreter: 3.12.14
+pyvenv.cfg creation version: 3.12.13
+Version drift note: the active base runtime changed after virtual-environment creation.
+
+numpy==2.3.5
+pandas==3.0.1
+scikit-learn==1.8.0
+pytest==9.1.1
+shap==0.50.0
+matplotlib==3.11.0
+tabulate==0.10.0
+jsonschema==4.26.0
+
+No package installation, upgrade, downgrade, or environment freeze was performed
+during RC1 assembly. requirements.txt remains the historical project specification.

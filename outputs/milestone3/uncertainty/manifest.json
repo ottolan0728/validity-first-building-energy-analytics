@@ -1,0 +1,6 @@
+{
+  "final_holdout_opened": false,
+  "development_cutoff": "2021-12-01T00:00:00+00:00",
+  "calibration_days": 30,
+  "interval_method": "symmetric split conformal with finite-sample correction"
+}

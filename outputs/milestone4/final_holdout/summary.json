@@ -1,0 +1,117 @@
+{
+  "point_overall": {
+    "hist_gradient_boosting_full": {
+      "mae": 0.8556186672762852,
+      "rmse": 1.9398874462111735,
+      "r2": 0.5131454366615474
+    },
+    "random_forest_full": {
+      "mae": 0.8593553809989949,
+      "rmse": 2.019827722960557,
+      "r2": 0.47219337460167565
+    },
+    "ridge_full": {
+      "mae": 1.0115197925037265,
+      "rmse": 2.183516678049401,
+      "r2": 0.38317892072305393
+    },
+    "seasonal_naive_24h": {
+      "mae": 1.7133010752688171,
+      "rmse": 3.674334626328495,
+      "r2": -0.7466407609970118
+    }
+  },
+  "intervals": [
+    {
+      "scope": "all",
+      "nominal_coverage": 0.8,
+      "n": 930,
+      "radius": 0.8169594131067464,
+      "coverage": 0.6623655913978495,
+      "mean_width": 1.6339188262134923
+    },
+    {
+      "scope": "block_A",
+      "nominal_coverage": 0.8,
+      "n": 319,
+      "radius": 0.8169594131067464,
+      "coverage": 0.5736677115987461,
+      "mean_width": 1.6339188262134925
+    },
+    {
+      "scope": "block_B",
+      "nominal_coverage": 0.8,
+      "n": 319,
+      "radius": 0.8169594131067464,
+      "coverage": 0.774294670846395,
+      "mean_width": 1.6339188262134925
+    },
+    {
+      "scope": "block_C",
+      "nominal_coverage": 0.8,
+      "n": 292,
+      "radius": 0.8169594131067464,
+      "coverage": 0.636986301369863,
+      "mean_width": 1.6339188262134923
+    },
+    {
+      "scope": "all",
+      "nominal_coverage": 0.9,
+      "n": 930,
+      "radius": 1.2727418018438152,
+      "coverage": 0.7870967741935484,
+      "mean_width": 2.5454836036876296
+    },
+    {
+      "scope": "block_A",
+      "nominal_coverage": 0.9,
+      "n": 319,
+      "radius": 1.2727418018438152,
+      "coverage": 0.7648902821316614,
+      "mean_width": 2.545483603687631
+    },
+    {
+      "scope": "block_B",
+      "nominal_coverage": 0.9,
+      "n": 319,
+      "radius": 1.2727418018438152,
+      "coverage": 0.8714733542319749,
+      "mean_width": 2.5454836036876305
+    },
+    {
+      "scope": "block_C",
+      "nominal_coverage": 0.9,
+      "n": 292,
+      "radius": 1.2727418018438152,
+      "coverage": 0.7191780821917808,
+      "mean_width": 2.5454836036876305
+    }
+  ],
+  "thermal_overall": {
+    "hist_gradient_boosting": {
+      "mae": 0.11847754915914978,
+      "rmse": 0.16995583317487262,
+      "r2": 0.9410926119863176
+    },
+    "persistence": {
+      "mae": 0.13270902536952212,
+      "rmse": 0.18504657765949462,
+      "r2": 0.9301671556779438
+    },
+    "ridge": {
+      "mae": 0.12410366439208874,
+      "rmse": 0.17883656987823898,
+      "r2": 0.9347755719719427
+    }
+  },
+  "rf_vs_naive_cluster_bootstrap": {
+    "mae_improvement_kwh": 0.8539456942698224,
+    "ci_low": 0.45981717721536797,
+    "ci_high": 1.3209111057825305,
+    "clusters": 42,
+    "bootstrap_repetitions": 5000
+  },
+  "decision_module_status": "downgraded",
+  "offline_savings_estimated": false,
+  "final_holdout_rows": 930
+}

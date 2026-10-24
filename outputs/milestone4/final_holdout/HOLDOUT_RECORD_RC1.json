@@ -1,0 +1,17 @@
+{
+  "record_type": "RC1 path-normalized release record",
+  "source_artifact": "outputs/milestone4/final_holdout/HOLDOUT_OPENED.json",
+  "source_sha256": "cb4b27930345095337c30fc337a98868f4b86a8bb282991cf9a384e73521af34",
+  "source_included": false,
+  "source_exclusion_reason": "machine-specific absolute local path",
+  "dataset_release_path": "data/processed/pleiadata_h1_history24.csv",
+  "dataset_included": false,
+  "dataset_sha256": "324abec7b3e0b6fb46a4792622060717646ea9c8ba47ba8e403ecc9cdf5bdfed",
+  "opened_at_utc": "2026-07-13T01:35:33.305915+00:00",
+  "completed_at_utc": "2026-07-13T01:36:05.976518+00:00",
+  "holdout_start": "2021-12-01T00:00:00+00:00",
+  "holdout_end": "2022-01-01T00:00:00+00:00",
+  "status": "completed",
+  "one_shot": true,
+  "rc1_rerun_performed": false
+}
