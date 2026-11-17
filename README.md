@@ -1,6 +1,6 @@
 # Validity-First Building Energy Analytics
 
-Research code and selected aggregate results associated with **A Validity-First Evidence-Gating Framework for Explainable Building Energy Management**, *Energy & Buildings* (2026). Article DOI: https://doi.org/10.1016/j.enbuild.2026.118420.
+Research code and selected aggregate results associated with **A Validity-First Evidence-Gating Framework for Explainable Building Energy Management**, *Energy & Buildings*, **374 (Part B)** (2027), Article 118420 (issue date: 1 January 2027). Article DOI: https://doi.org/10.1016/j.enbuild.2026.118420.
 
 ## Archived software release
 
@@ -43,4 +43,4 @@ MIT covers original author-owned code only. PLEIAData is CC BY 4.0 and must be a
 
 ## Publication status
 
-The journal article is available online. The authors have separately requested editorial consideration of the two post-acceptance methodological clarifications. Public code disclosure does not itself amend the journal article.
+The journal article has been assigned to *Energy & Buildings*, Volume 374, Part B (1 January 2027), Article 118420. The journal declined post-acceptance methodological changes; the independent disclosures above are not a publisher-issued correction. Public code disclosure does not itself amend the journal article.
